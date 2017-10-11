@@ -8,3 +8,8 @@
 # Found roku hitting this address when it was idle
 127.0.0.1	xtify.com
 # IBM Marketing Cloud
+127.0.0.1 dev.vizio.com
+127.0.0.1 api.vizio.com
+127.0.0.1 oui-0x00199d.com
+127.0.0.1 tvinteractive.tv
+# Vizio updates and tracking
