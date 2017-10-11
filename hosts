@@ -1,15 +1,66 @@
 # -=Lyvers custom list=-
 #
-# The following are hosts I have manually added that are either usage trackers or other items I do no agree with
+# The following are hosts I have manually added that are either usage trackers or other items I do no agree with.
+# Overall very agressive. There are a few cases where target device functionalty becomes partially broken.
 #
-127.0.0.1	settings.crashlytics.com
+0.0.0.0 crashlytics.com
 # With Crashlytics, mobile developers for iOS, Android, and Unity are able to pinpoint, down to the exact line of code, the issues that causes their app's instabilities
-127.0.0.1	ichnaea.netflix.com
+
+0.0.0.0 ichnaea.netflix.com
 # Found roku hitting this address when it was idle
-127.0.0.1	xtify.com
+
+0.0.0.0 xtify.com
 # IBM Marketing Cloud
-127.0.0.1 dev.vizio.com
-127.0.0.1 api.vizio.com
-127.0.0.1 oui-0x00199d.com
-127.0.0.1 tvinteractive.tv
+
+0.0.0.0 dev.vizio.com
+0.0.0.0 api.vizio.com
+0.0.0.0 oui-0x00199d.com
+0.0.0.0 tvinteractive.tv
 # Vizio updates and tracking
+
+0.0.0.0 conviva.com
+0.0.0.0 metrics.plex.tv
+0.0.0.0 device-metrics-us.amazon.com
+# Alexa calling back to here
+
+0.0.0.0 update-services.sonos.com
+# Sonos app calling here
+
+0.0.0.0 system-api.sonos.com
+# I think the app and devices call here
+
+0.0.0.0 conviva.com
+# Forget what was calling this
+
+0.0.0.0 logs.roku.com
+# While the unit is "off" calling here
+
+0.0.0.0 ws.sonos.com
+# App and devices?
+
+0.0.0.0 hockeyapp.net
+#  is the best way to collect live crash reports, get feedback from your users, distribute your betas, and analyze your test coverage.
+
+0.0.0.0 narrative.io
+# Narrative's data commercialization platform connects buyers and sellers of raw data events.
+
+0.0.0.0 branch.io
+# Integrate robust, durable links into email, SEM, ads and other traditional marketing channels for improved app growth
+
+0.0.0.0 urbanairship.com
+# A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.
+
+0.0.0.0 mobileapptracking.com
+# Tune.com mobile analytics and performance marketing
+
+0.0.0.0 appspot.com
+# Google analytics
+
+0.0.0.0 pippio.com
+# LiveRamp is the leader in omnichannel identity resolution for publishers, technology platforms...
+
+0.0.0.0 acompli.net
+# I think this breaks Outlook mobile app when blocked. Push notifications still work however.
+
+0.0.0.0 sentry.io
+# Open-source error tracking that helps developers monitor and fix crashes in real time.
