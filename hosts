@@ -33,6 +33,9 @@
 # Forget what was calling this
 
 0.0.0.0 logs.roku.com
+0.0.0.0 cooper.logs.roku.com
+0.0.0.0 mobile.logs.roku.com
+0.0.0.0 austin.logs.roku.com
 # While the unit is "off" calling here
 
 0.0.0.0 ws.sonos.com
