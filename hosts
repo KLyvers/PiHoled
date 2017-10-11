@@ -1,0 +1,10 @@
+# -=Lyvers custom list=-
+#
+# The following are hosts I have manually added that are either usage trackers or other items I do no agree with
+#
+127.0.0.1	settings.crashlytics.com
+# With Crashlytics, mobile developers for iOS, Android, and Unity are able to pinpoint, down to the exact line of code, the issues that causes their app's instabilities
+127.0.0.1	ichnaea.netflix.com
+# Found roku hitting this address when it was idle
+127.0.0.1	xtify.com
+# IBM Marketing Cloud
